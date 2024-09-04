@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'happy-monkey';
+    src: url(HappyMonkey-Regular.ttf);
+}
+body {
+    font-family: 'happy-monkey', sans-serif;
+    background: linear-gradient(lightblue,pink);
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+h1 {
+    text-align: center;
+}
+#img {
+    height: 140px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: auto auto;
+    border: 7px solid #Efb0c9;
+}
+#age {
+    text-align: center;
+    font-size: 26px;
+    background-color: #Efb0c9;
+    margin: 10px;
+    padding: 5px 9px;
+    border-radius: 5px;
+}
+#date {
+    text-align: center;
+    font-size: 16px;
+    background-color: #Efb0c9;
+    margin: 0;
+    padding: 5px 7px;
+    border-radius: 5px;
+
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-title {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    text-align: center;
+    text-shadow: 0 0px 3px black;
+}
+#gift-hint {
+    text-align: center;
+    margin: 5px 0 20px 0;
+
+}
+
+.gift-img {
+    height: 258px;
+    width: 250px;
+    background: linear-gradient(black, blue);
+    background-image: url(Screenshot\ \(15\).png);
+    margin: auto auto;
+    border-radius: 10px;
+    background-size: cover;
+}
+#gift-img-happy:hover {
+    background-image: url("happy.webp");
+    cursor: pointer;
+}
+#gift-room {
+    text-align: center;
+    text-shadow: 0 0 3px black;
+}
+#gift-img-hot:hover {
+    background-image: url(hot.webp);
+    background-size: cover;
+    cursor: pointer;
+}
+#gift-img-goat:hover {
+    background-image: url(giphy.webp);
+    background-size: cover;
+    cursor: pointer;
+}
+#gift-img-good:hover {
+    background-image: url(good.webp);
+    background-size: cover;
+    cursor: pointer;
+}
+#gift-img-degree {
+    height: 160px;
+}
+#gift-img-degree:hover {
+    background-image: url("degree.webp");
+    background-size: cover;
+}
+#jw {
+    font-family: 'happy-monkey', sans-serif;
+    color: white;
+    text-shadow: 0 0 3px black;
+    font-size: larger;
+    text-align: center;
+    margin: 40px 0 10px 0;
+    font-style: italic;
+}
+#link {
+    font-size: 20px;
+    text-decoration-line: none;
+    text-decoration-color: purple;
+    width: 10ox;
+    display: block;
+    text-align: center;
+    font-style: italic;
+
+}
